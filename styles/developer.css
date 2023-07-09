@@ -89,8 +89,7 @@ nav a {
 /* About related styles */
 .about {
   background-color: #fff8f3;
-  margin: auto;
-  width: 1140px;
+  margin: 0 auto;
   height: 320px;
   margin-top: 130px;
   border-radius: 10px;
@@ -112,4 +111,25 @@ nav a {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 10px;
+  margin-top: 20px;
 }
