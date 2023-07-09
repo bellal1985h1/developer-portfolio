@@ -19,7 +19,7 @@ body {
 /* nav related styles */
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 nav > ul {
