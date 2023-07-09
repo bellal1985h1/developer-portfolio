@@ -1,6 +1,8 @@
 /* Common shared styles */
 body {
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .orange-color {
@@ -19,8 +21,9 @@ body {
 /* nav related styles */
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 nav > ul {
   display: flex;
@@ -40,4 +43,73 @@ nav a {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
+}
+
+/* Header related styles */
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+/* banner related styles */
+.banner {
+  display: flex;
+  padding: 30px 30px 0 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .profile-pic {
+  width: 500px;
+  height: 550px;
+}
+.banner-content {
+  max-width: 585px;
+}
+.banner-greetings {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.banner-title {
+  margin-top: 5px;
+}
+.banner-desc {
+  margin-top: 20px;
+}
+.btn-banner {
+  margin-top: 30px;
+}
+.btn-contact {
+  margin-right: 30px;
+}
+
+/* About related styles */
+.about {
+  background-color: #fff8f3;
+  margin: auto;
+  width: 1140px;
+  height: 320px;
+  margin-top: 130px;
+  border-radius: 10px;
+  padding: 130px;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.about-desc {
+  max-width: 827px;
+  margin: auto;
+  margin-top: 30px;
+  color: var(--dark-03, #757575);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
